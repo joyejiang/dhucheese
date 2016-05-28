@@ -24,6 +24,24 @@ public class TaskAction extends ActionSupport{
 	//任务ID
 	private Integer id;
 	
+	public String newtask(){
+		try{
+			/*System.out.println(task.getDescription());
+			System.out.println(task.getImage());
+			System.out.println(task.getTaskName());
+
+			System.out.println(task.getDeadline());
+			System.out.println(task.getPrice());
+			System.out.println(task.getId());
+			System.out.println(task.getRelease());*/
+			//taskManager.setTask(task);  
+			return SUCCESS;
+		}catch(Exception e){
+			e.printStackTrace();
+			return ERROR;
+		}
+	}
+	
 	/*查询所有的任务*/
 	public String findAllTask(){
 		taskList = taskManager.findAllTask();
