@@ -23,7 +23,7 @@ public class TaskAction extends ActionSupport{
 	private Task task;
 	//任务ID
 	private Integer id;
-	//
+	
 	public String newtask(){
 		try{
 			/*System.out.println(task.getDescription());
@@ -54,6 +54,14 @@ public class TaskAction extends ActionSupport{
 		task = taskManager.findTask(id);
 		return SUCCESS;
 	}
+	
+	
+	public String findtask(){
+		System.out.println("123");
+		taskManager.mytask(task);
+		result = JSONArray.fromObject(taskList);
+		return SUCCESS;
+}
 	
 	/* getter and setter functions*/	
 

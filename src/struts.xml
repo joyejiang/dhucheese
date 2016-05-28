@@ -62,6 +62,11 @@
          <action name="taskView" method="taskView" class="taskAction">
         	<result name="success">/baoliao_view.jsp</result>		
         </action>
+        
+        <action name="findtask" method="findtask" class="taskAction">        
+            <result name="success">/demands.jsp</result>  
+            <result name="error">/Fail.jsp</result>  
+        </action>
     </package>  
   
 </struts>  

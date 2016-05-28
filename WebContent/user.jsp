@@ -65,25 +65,41 @@ $(document).ready(function(){
             <div class="user_dengji">会员等级：黄金会员</div>
         </div>
     </div>
-    <div class="user_nav_list w">
+        <div class="user_nav_list w">
     	<ul>
+    	 <li>
+            	<a href="user_info.html">
+                	<div class="u_nav_icon anquan"></div>
+                    <div class="u_nav_name">我的账号</div>
+                    <div class="nt_icon"></div>
+         
+              </a>
+               </li>
             <li>
             	<a href="money.html">
                 	<div class="u_nav_icon money"></div>
-                    <div class="u_nav_name">我的现金</div>
+                    <div class="u_nav_name">我的钱包</div>
                      <div class="nt_icon"></div>
                     <div class="u_money"><i>0.00元</i></div>
               </a>
             </li>
-            <li>
+            <!-- <li>
             	<a href="huibi.html">
                 	<div class="u_nav_icon huibi"></div>
-                    <div class="u_nav_name">我的惠币</div>
+                    <div class="u_nav_name">我的优惠券</div>
                     <div class="nt_icon"></div>
-                    <div class="u_money"><i>0.00个</i></div>
+                    <div class="u_money"><i>0.00张</i></div>
+              </a>
+            </li> -->
+             <li>
+            	<a href="qiandao.html">
+                	<div class="u_nav_icon qiandao"></div>
+                    <div class="u_nav_name">我的积分</div>
+                    <div class="nt_icon"></div>
+                    <!-- <div class="u_money"><i>今天您未签到</i></div> -->
               </a>
             </li>
-            <li>
+           <!--  <li>
             	<a href="money_tixian.html">
                 	<div class="u_nav_icon tixian"></div>
                     <div class="u_nav_name">金额提现</div>
@@ -98,29 +114,39 @@ $(document).ready(function(){
                     <div class="nt_icon"></div>
                     <div class="u_money"><i>0个</i></div>
               </a>
+            </li> -->
+            <li>
+            	<a href="order.html">
+                	<div class="u_nav_icon dingdan"></div>
+                    <div class="u_nav_name">我的作品</div>
+                    <div class="nt_icon"></div>
+                    <!-- <div class="u_money"><i>0笔</i></div> -->
+              </a>
+            </li>
+            <li>
+            	<a href="findtask.action">
+                	<div class="u_nav_icon dingdan"></div>
+                    <div class="u_nav_name">我发布的任务</div>
+                    <div class="nt_icon"></div>
+                    <!-- <div class="u_money"><i>0笔</i></div> -->
+              </a>
             </li>
             <li>
             	<a href="order.html">
                 	<div class="u_nav_icon dingdan"></div>
-                    <div class="u_nav_name">我的订单</div>
+                    <div class="u_nav_name">我的收藏</div>
                     <div class="nt_icon"></div>
-                    <div class="u_money"><i>0笔</i></div>
+                    <!-- <div class="u_money"><i>0笔</i></div> -->
               </a>
             </li>
-            <li>
-            	<a href="qiandao.html">
-                	<div class="u_nav_icon qiandao"></div>
-                    <div class="u_nav_name">我的签到</div>
-                    <div class="nt_icon"></div>
-                    <div class="u_money"><i>今天您未签到</i></div>
-              </a>
-            </li>
-            <li>
-            	<a href="mail.html">
+           
+            
+             
+             <li>
+            	<a href="fabu.jsp">
                 	<div class="u_nav_icon znx"></div>
-                    <div class="u_nav_name">站内消息</div>
+                    <div class="u_nav_name">发布任务</div>
                     <div class="nt_icon"></div>
-                    <div class="u_money"><i>3条</i></div>
               </a>
             </li>
             <li>
@@ -130,6 +156,7 @@ $(document).ready(function(){
                     <div class="nt_icon"></div>
               </a>
             </li>
+            
         </ul>
     </div>
   <div class="login_out w"><a href="javascript:void(0);"><span><img src="images/iconfont-tuichu.png"></span><i>安全退出</i></a></div>
