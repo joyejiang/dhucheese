@@ -58,7 +58,7 @@
 				</param>
 			</result>		
         </action>
-        
+        <!-- 查看任务的详细信息  -->
          <action name="taskView" method="taskView" class="taskAction">
         	<result name="success">/baoliao_view.jsp</result>		
         </action>
